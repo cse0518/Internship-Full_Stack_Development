@@ -4,7 +4,7 @@
 #### 👉 프로젝트 진행 기간 : 2021.4.13 ~ 2021.4.16
 #### 👉 기술스택 : React + HTML, CSS, JavaScript
 #### 👉 소스 실행 :
-##### npm install    // react 파일 실행에 필요한 node modules 설치
-##### npm start     // 명령 프롬프트 또는 power shell 에서 폴더 경로 설정 후 npm start를 입력하면 react 파일 실행(./src/index.js)
+##### npm install    // 명령 프롬프트 또는 power shell 에서 폴더 경로 설정 후 npm install을 입력하면 react 파일 실행에 필요한 node modules를 설치
+##### npm start     // npm start를 입력하면 react 파일 실행(./src/index.js)
 #### 👉 대시보드 캡쳐
 ![React 대시보드](https://user-images.githubusercontent.com/60170616/122669523-c6a92300-d1f8-11eb-84c1-7f25eb36afe4.png)
