@@ -1,0 +1,115 @@
+
+/* sdh */
+
+/* table {
+	cursor : pointer;
+}
+ */
+table.process_Table_tb {width:100% !important;}
+#pro_list_table .list_Table_01 {width:5% !important;}
+#pro_list_table .list_Table_02 {width:5% !important;}
+#pro_list_table .list_Table_03 {width:10% !important;}
+#pro_list_table .list_Table_04 {width:20% !important;}
+#pro_list_table .list_Table_05 {width:30% !important;}
+#pro_list_table .list_Table_06 {width:10% !important;}
+#pro_list_table .list_Table_07 {width:10% !important;}
+#pro_list_table .list_Table_08 {width:10% !important;}
+
+table.event_his_Table_tb {width:100% !important;}
+#rt_event_his_table .list_Table_01 {width:3% !important;}
+#rt_event_his_table .list_Table_02 {width:10% !important;}
+#rt_event_his_table .list_Table_03 {width:10% !important;}
+#rt_event_his_table .list_Table_04 {width:7% !important;}
+#rt_event_his_table .list_Table_05 {width:5% !important;}
+#rt_event_his_table .list_Table_06 {width:5% !important;}
+#rt_event_his_table .list_Table_07 {width:12% !important;}
+#rt_event_his_table .list_Table_08 {width:12% !important;}
+#rt_event_his_table .list_Table_09 {width:7% !important;}
+#rt_event_his_table .list_Table_10 {width:7% !important;}
+#rt_event_his_table .list_Table_11 {width:7% !important;}
+#rt_event_his_table .list_Table_12 {width:4% !important;}
+#rt_event_his_table .list_Table_13 {width:5% !important;}
+#rt_event_his_table .list_Table_14 {width:6% !important;}
+
+table.event_statics_Table_tb {width:100% !important;}
+#falevel_list_table .list_Table_01 {width:4% !important;}
+#falevel_list_table .list_Table_02 {width:10% !important;}
+#falevel_list_table .list_Table_03 {width:10% !important;}
+#falevel_list_table .list_Table_04 {width:10% !important;}
+#falevel_list_table .list_Table_05 {width:10% !important;}
+#falevel_list_table .list_Table_06 {width:10% !important;}
+#falevel_list_table .list_Table_07 {width:8% !important;}
+#falevel_list_table .list_Table_08 {width:10% !important;}
+#falevel_list_table .list_Table_09 {width:10% !important;}
+#falevel_list_table .list_Table_10 {width:8% !important;}
+#falevel_list_table .list_Table_11 {width:10% !important;}
+
+table.event_staticsTime_Table_tb {width:100% !important;}
+#event_list_table .list_Table_01 {width:6% !important;}
+#event_list_table .list_Table_02 {width:14% !important;}
+#event_list_table .list_Table_03 {width:14% !important;}
+#event_list_table .list_Table_04 {width:20% !important;}
+#event_list_table .list_Table_05 {width:6% !important;}
+#event_list_table .list_Table_06 {width:6% !important;}
+#event_list_table .list_Table_07 {width:6% !important;}
+#event_list_table .list_Table_08 {width:8% !important;}
+#event_list_table .list_Table_09 {width:20% !important;}
+
+table.event_overlap_Table_tb {width:100% !important;}
+#fault_list_table .list_Table_01 {width:4% !important;}
+#fault_list_table .list_Table_02 {width:10% !important;}
+#fault_list_table .list_Table_03 {width:10% !important;}
+#fault_list_table .list_Table_04 {width:10% !important;}
+#fault_list_table .list_Table_05 {width:10% !important;}
+#fault_list_table .list_Table_06 {width:10% !important;}
+#fault_list_table .list_Table_07 {width:8% !important;}
+#fault_list_table .list_Table_08 {width:10% !important;}
+#fault_list_table .list_Table_09 {width:10% !important;}
+#fault_list_table .list_Table_10 {width:8% !important;}
+#fault_list_table .list_Table_11 {width:10% !important;}
+
+table.user_power_table_tb {width:100% !important;table-layout:fixed;}
+#user_power_table .list_Table_01 {width:18px !important;}
+#user_power_table .list_Table_02 {width:30px !important;}
+#user_power_table .list_Table_03 {width:230px !important;}
+
+table.dbBackupTable_tb {width:100% !important;}
+#dbBackupTable .list_Table_01 {width:5% !important;}
+#dbBackupTable .list_Table_02 {width:20% !important;}
+#dbBackupTable .list_Table_03 {width:10% !important;}
+#dbBackupTable .list_Table_04 {width:45% !important;}
+#dbBackupTable .list_Table_05 {width:20% !important;}
+
+
+/* pmy */
+
+table.table_icmp_tb {width:100% !important; }
+#table_icmp .table_icmp_01 {width:6% !important;}
+#table_icmp .table_icmp_02 {width:11% !important;}
+#table_icmp .table_icmp_03 {width:11% !important;}
+#table_icmp .table_icmp_04 {width:9% !important;}
+#table_icmp .table_icmp_05 {width:9% !important;}
+#table_icmp .table_icmp_06 {width:9% !important;}
+#table_icmp .table_icmp_07 {width:9% !important;}
+#table_icmp .table_icmp_08 {width:9% !important;}
+#table_icmp .table_icmp_09 {width:9% !important;}
+#table_icmp .table_icmp_10 {width:9% !important;}
+#table_icmp .table_icmp_11 {width:9% !important;}
+
+
+table.table_cpuMem_tb {width:100% !important;}
+#table_cpuMem .table_cpuMem_01 {width:6% !important;}
+#table_cpuMem .table_cpuMem_02 {width:11% !important;}
+#table_cpuMem .table_cpuMem_03 {width:11% !important;}
+#table_cpuMem .table_cpuMem_04 {width:11% !important;}
+#table_cpuMem .table_cpuMem_05 {width:11% !important;}
+#table_cpuMem .table_cpuMem_06 {width:10% !important;}
+#table_cpuMem .table_cpuMem_07 {width:10% !important;}
+#table_cpuMem .table_cpuMem_08 {width:10% !important;}
+#table_cpuMem .table_cpuMem_09 {width:10% !important;}
+#table_cpuMem .table_cpuMem_10 {width:10% !important;}
+
+
+
+
+

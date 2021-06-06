@@ -1,0 +1,15 @@
+.login-wrap{
+    display:flex;
+    min-height: 100vh;
+}
+.login-wrap>div{
+    margin-top:calc(50vh - 350px);
+    width:760px;
+    margin:auto;
+
+    border-radius: 0.5rem;
+}
+.login-img{
+    background-size: cover;
+    height: 400px;
+}

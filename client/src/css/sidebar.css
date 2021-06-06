@@ -1,0 +1,25 @@
+.pro-sidebar {
+    color: #ffffff;
+    width: 200px;
+    min-width: 200px;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+.pro-sidebar-header {
+    padding: 10px;
+    text-align: center;
+    background-color: #666666;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {
+    padding: 5px 10px 10px 10px;
+}
+
+.pro-sidebar-content {
+    background-color: #666666;
+}
+
+.bg-light {
+    background-color: #f3f3f3!important;
+}

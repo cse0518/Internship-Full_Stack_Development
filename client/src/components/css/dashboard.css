@@ -1,0 +1,626 @@
+
+/*    dashboard size	*/
+
+.dashboard {
+    /* 모니터별 세로 사이즈 변경 */
+    /*height: calc(100vh - 5.2rem);*/
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard > .row:nth-child(1) {
+    /* 모니터별 세로 사이즈 변경 */
+    height: calc(75vh - .875rem);
+}
+
+.dashboard > .row:nth-child(1) > div:nth-child(1) > .card {
+    height: calc(14% - .5rem);
+    width: calc(33.33% - .25rem);
+}
+
+.dashboard > .row:nth-child(1) > div:nth-child(1) > .card:nth-child(4) {
+    height: calc(17% - .5rem);
+    width: 100%;
+    border: 1px solid #e3e6f0;
+    margin: .75rem 0;
+}
+.dashboard > .row:nth-child(1) > div:nth-child(1) > .card:last-child {
+    height: calc(86.7% - .5rem);
+    width: 100%;
+}
+
+.dashboard > .row:nth-child(1) > div:nth-child(1) > .card-body {
+    padding: .5rem 0;
+}
+
+.dashboard > .row:last-child {
+    height: 25%;
+}
+
+.dashboard > .row > * {
+    height: 100%;
+}
+
+.dashboard .status-wrap .card-body {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+}
+
+.dashboard .status-wrap .card-body p:last-child {
+}
+
+
+.dashboard > .row:nth-child(1) > div:nth-child(1) .card {
+}
+
+.dashboard .card-body {
+    height: calc(100% - 3rem);
+}
+
+.dashboard .card-body-wrap {
+    height: calc(100% - 0rem);
+}
+
+.dashboard .g-section {
+    height: calc(100% - 0rem);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.dashboard .g-wrap {
+    background: rgba(0, 0, 0, .005);
+    width: 100%;
+    height: calc(33.333% - 0.5rem);
+    padding: .05rem;
+    border: .01rem solid #eee;
+}
+
+.dashboard .g-wrap:nth-child(odd) {
+    background: rgba(0, 0, 0, .02);
+}
+
+.dashboard .g-wrap > *:last-child {
+    width: 100%;
+    height: calc(100% - 2rem);
+}
+
+.h-tbody {
+    height: 30rem;
+    overflow: auto;
+}
+
+.dashboard .stretch-card {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-justify-content: stretch;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+
+.dashboard table th {
+    text-align: center;
+}
+
+.dashboard .tree-warp {
+    height: 100%;
+    overflow: auto;
+}
+
+
+/*          tree view           */
+
+.tree, .tree ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 95%;
+}
+
+.tree li:nth-child(odd) {
+    background: rgba(0, 0, 0, .03);
+}
+
+.tree ul {
+    margin-left: .4rem;
+    position: relative;
+    width: 100%;
+}
+
+.tree ul ul {
+    margin-left: .5em
+}
+
+.tree ul:before {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0.4rem;
+    border-left: 2px solid #4e73df;
+}
+
+.tree li {
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+    color: #858796;
+    cursor: pointer;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tree > li > ul > li {
+    padding-left: 1rem;
+}
+
+.tree .branch ul > li > ul > li {
+    padding-left: 1rem;
+    line-height: 2em;
+    display: block;
+}
+
+.tree > li:hover, .tree .branch li:hover, .tree .branch ul > li > ul > li:hover {
+    background: rgba(0, 0, 0, .06);
+}
+
+.tree ul li:before {
+    content: "";
+    display: block;
+    width: .35rem;
+    height: 0;
+    border-top: 2px solid #4e73df;
+    margin-top: -1px;
+    position: absolute;
+    top: 1.1rem;
+    left: .4rem;
+}
+
+.tree ul li:last-child:before {
+    background: #eee;
+    height: auto;
+    top: 1em;
+    bottom: 0
+}
+
+.indicator {
+    margin-right: 5px;
+}
+
+.tree li a {
+    text-decoration: none;
+    color: #858796;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 2rem;
+    padding-top:.5rem;
+}
+
+.tree li a:hover i {
+    color: #2e59d9 !important;
+}
+
+.tree li div.p_change {
+    width: calc(100% - 2rem);
+    margin-bottom: 0;
+    line-height: 1.4;
+    padding: .5rem .5rem .5rem 0;
+}
+
+.tree li button, .tree li button:active, .tree li button:focus {
+    text-decoration: none;
+    color: #888888;
+    border: none;
+    background: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    outline: 0;
+}
+
+.tree-warp::-webkit-scrollbar {
+    width: 0px; /* 세로축 스크롤바 길이 */
+}
+
+/*
+.tree-warp::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.tree-warp::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+.tree-warp::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #dddfeb;
+}
+
+*/
+
+/*//pmy*/
+
+.lineW {
+    height: 2px !important;
+    resize: horizontal;
+}
+
+.lineH {
+    width: 2px !important;
+    resize: vertical;
+}
+
+.redD {
+    position: absolute;
+    opacity: .6;
+    content: "";
+    background: #e74a3b;
+    z-index: 11;
+    -webkit-animation: flash linear 1s infinite;
+    animation: flash linear 1s infinite;
+}
+.critical-alarm::after{
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    content:"\f042";
+    font-size:3rem;
+    color:red;
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+}
+
+.orangeD {
+    position: absolute;
+    opacity: .6;
+    content: "";
+    background: #fb811c;
+    z-index: 11;
+
+    -webkit-animation: flash linear 1.5s infinite;
+    animation: flash linear 1.5s infinite;
+}
+
+.yellowD {
+    position: absolute;
+    opacity: .6;
+    content: "";
+    background: #f6c23e;
+    z-index: 11;
+    -webkit-animation: flash linear 2s infinite;
+    animation: flash linear 2s infinite;
+}
+
+@keyframes flash {
+    0% {
+        opacity: .6;
+        border-radius: 10%;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2);
+        border-radius: 10%;
+    }
+}
+
+
+table.fileSys_tb {
+    width: 100% !important;
+}
+
+#fileSys .fileSys_01 {
+    width: 10% !important;
+}
+
+#fileSys .fileSys_02 {
+    width: 10% !important;
+}
+
+#fileSys .fileSys_03 {
+    width: 35% !important;
+}
+
+#fileSys .fileSys_04 {
+    width: 15% !important;
+}
+
+#fileSys .fileSys_05 {
+    width: 15% !important;
+}
+
+#fileSys .fileSys_06 {
+    width: 15% !important;
+}
+
+table.fault_Table_tb {
+    width: 100% !important;
+}
+
+#fault_Table .fault_Table_01 {
+    width: 3% !important;
+}
+
+#fault_Table .fault_Table_02 {
+    width: 3% !important;
+}
+
+#fault_Table .fault_Table_03 {
+    width: 7% !important;
+}
+
+#fault_Table .fault_Table_04 {
+    width: 8% !important;
+}
+
+#fault_Table .fault_Table_05 {
+    width: 12% !important;
+}
+
+#fault_Table .fault_Table_06 {
+    width: 13% !important;
+}
+
+#fault_Table .fault_Table_07 {
+    width: 12% !important;
+}
+
+#fault_Table .fault_Table_08 {
+    width: 8% !important;
+}
+
+#fault_Table .fault_Table_09 {
+    width: 9% !important;
+}
+
+#fault_Table .fault_Table_10 {
+    width: 10% !important;
+}
+
+#fault_Table .fault_Table_11 {
+    width: 6% !important;
+}
+
+#fault_Table .fault_Table_12 {
+    width: 9% !important;
+}
+
+
+table.port_info_tb {
+    width: 100% !important;
+}
+
+#port_info .port_info_01 {
+    width: 7% !important;
+}
+
+#port_info .port_info_02 {
+    width: 7% !important;
+}
+
+#port_info .port_info_03 {
+    width: 10% !important;
+}
+
+#port_info .port_info_04 {
+    width: 10% !important;
+}
+
+#port_info .port_info_05 {
+    width: 10% !important;
+}
+
+#port_info .port_info_06 {
+    width: 11% !important;
+}
+
+#port_info .port_info_07 {
+    width: 11% !important;
+}
+
+#port_info .port_info_08 {
+    width: 10% !important;
+}
+
+#port_info .port_info_09 {
+    width: 8% !important;
+}
+
+#port_info .port_info_10 {
+    width: 8% !important;
+}
+
+#port_info .port_info_11 {
+    width: 8% !important;
+}
+
+
+table.device_pro_table_tb {
+    width: 100% !important;
+}
+
+#device_pro_table .device_pro_table_01 {
+    width: 3% !important;
+}
+
+#device_pro_table .device_pro_table_02 {
+    width: 3% !important;
+}
+
+#device_pro_table .device_pro_table_03 {
+    width: 8% !important;
+}
+
+#device_pro_table .device_pro_table_04 {
+    width: 14% !important;
+}
+
+#device_pro_table .device_pro_table_05 {
+    width: 15% !important;
+}
+
+#device_pro_table .device_pro_table_06 {
+    width: 47% !important;
+}
+
+#device_pro_table .device_pro_table_07 {
+    width: 10% !important;
+}
+
+
+table.deviceSysTable_tb {
+    width: 100% !important;
+}
+
+#deviceSysTable .deviceSysTable_01 {
+    width: 7% !important;
+}
+
+#deviceSysTable .deviceSysTable_02 {
+    width: 10% !important;
+}
+
+#deviceSysTable .deviceSysTable_03 {
+    width: 11% !important;
+}
+
+#deviceSysTable .deviceSysTable_04 {
+    width: 11% !important;
+}
+
+#deviceSysTable .deviceSysTable_05 {
+    width: 11% !important;
+}
+
+#deviceSysTable .deviceSysTable_06 {
+    width: 50% !important;
+}
+
+
+table.deviceHisTable_tb {
+    width: 100% !important;
+}
+
+#deviceHisTable .deviceHisTable_01 {
+    width: 7% !important;
+}
+
+#deviceHisTable .deviceHisTable_02 {
+    width: 10% !important;
+}
+
+#deviceHisTable .deviceHisTable_03 {
+    width: 10% !important;
+}
+
+#deviceHisTable .deviceHisTable_04 {
+    width: 7% !important;
+}
+
+#deviceHisTable .deviceHisTable_05 {
+    width: 10% !important;
+}
+
+#deviceHisTable .deviceHisTable_06 {
+    width: 10% !important;
+}
+
+#deviceHisTable .deviceHisTable_07 {
+    width: 10% !important;
+}
+
+#deviceHisTable .deviceHisTable_08 {
+    width: 18% !important;
+}
+
+#deviceHisTable .deviceHisTable_09 {
+    width: 18% !important;
+}
+
+
+table.pro_list_table_tb {
+    width: 100% !important;
+}
+
+#pro_list_table .pro_list_table_01 {
+    width: 7% !important;
+}
+
+#pro_list_table .pro_list_table_02 {
+    width: 7% !important;
+}
+
+#pro_list_table .pro_list_table_03 {
+    width: 22% !important;
+}
+
+#pro_list_table .pro_list_table_04 {
+    width: 27% !important;
+}
+
+#pro_list_table .pro_list_table_05 {
+    width: 12% !important;
+}
+
+#pro_list_table .pro_list_table_06 {
+    width: 17% !important;
+}
+
+#pro_list_table .pro_list_table_07 {
+    width: 14% !important;
+}
+
+#pro_list_table .pro_list_table_08 {
+    width: 14% !important;
+}
+
+
+table.falevel_table_tb {
+    width: 100% !important;
+}
+
+#falevel_table .falevel_table_01 {
+    width: 3% !important;
+}
+
+#falevel_table .falevel_table_02 {
+    width: 7% !important;
+}
+
+#falevel_table .falevel_table_03 {
+    width: 9% !important;
+}
+
+#falevel_table .falevel_table_04 {
+    width: 10% !important;
+}
+
+#falevel_table .falevel_table_05 {
+    width: 10% !important;
+}
+
+#falevel_table .falevel_table_06 {
+    width: 16% !important;
+}
+
+#falevel_table .falevel_table_07 {
+    width: 11% !important;
+}
+
+#falevel_table .falevel_table_08 {
+    width: 10% !important;
+}
+/*200827 map ott, stb */
+.fault-count {
+    position: absolute;
+    top: -.5rem;
+    right: -.5rem;
+}
+
