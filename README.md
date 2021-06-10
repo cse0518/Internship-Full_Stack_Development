@@ -37,15 +37,15 @@ ___
 - 설비 관리 페이지는 설비 보고서를 관리하는 페이지입니다. 설비 목록이 보여지고, 설비 보고서를 추가, 수정, 삭제할 수 있습니다. 또한 담당자 이름으로 검색을 하는 필터링 기능을 지원합니다.
 
 #### - 보고서 추가, 수정, 삭제 모달창
-![3](https://user-images.githubusercontent.com/60170616/122677178-2cf36d00-d21c-11eb-9355-db9ff37fd67a.png)
-- 추가, 수정, 삭제 버튼을 누르면 모달창이 뜨게 됩니다. 수정할 때는 DB에 저장되어 있는 데이터를 default 값으로 설정하였습니다.
+<img src="https://user-images.githubusercontent.com/60170616/122677178-2cf36d00-d21c-11eb-9355-db9ff37fd67a.png" width="700px">
+- 추가, 수정, 삭제 버튼을 누르면 모달창이 뜨게 됩니다. 수정할 때는 DB에 저장되어 있는 데이터를 default 값으로 설정하였습니다.  
 ##
 #### - 설비 상세페이지
 ![4](https://user-images.githubusercontent.com/60170616/122677226-70e67200-d21c-11eb-9121-91df1c2b0bbb.png)
 - 설비 상세페이지에는 설비 기본정보와 설비에 쓰인 자재 정보들이 보여집니다. 실제 현장에서 QR 코드를 통해 설비 정보를 확인할 수 있게 하려는 목적으로 설비 링크에 대한 QR 코드를 프린트 가능하게 구현했습니다.
 
 #### - 자재 정보 수정 및 QR 코드 프린트
-![5](https://user-images.githubusercontent.com/60170616/122677326-dcc8da80-d21c-11eb-8a53-e1ed9e4c97c7.png)
+<img src="https://user-images.githubusercontent.com/60170616/122677326-dcc8da80-d21c-11eb-8a53-e1ed9e4c97c7.png" width="700px">
 ![6](https://user-images.githubusercontent.com/60170616/122677359-fbc76c80-d21c-11eb-9d45-790e5b051d37.png)
 
 #### - 이미지 크게보기 기능
