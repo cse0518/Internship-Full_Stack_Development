@@ -37,15 +37,15 @@ ___
 - 설비 관리 페이지는 설비 보고서를 관리하는 페이지입니다. 설비 목록이 보여지고, 설비 보고서를 추가, 수정, 삭제할 수 있습니다. 또한 담당자 이름으로 검색을 하는 필터링 기능을 지원합니다.
 
 #### - 보고서 추가, 수정, 삭제 모달창
-<img src="https://user-images.githubusercontent.com/60170616/122677178-2cf36d00-d21c-11eb-9355-db9ff37fd67a.png" width="700px">
+<img src="https://user-images.githubusercontent.com/60170616/122677178-2cf36d00-d21c-11eb-9355-db9ff37fd67a.png" width="700px"></img>
 - 추가, 수정, 삭제 버튼을 누르면 모달창이 뜨게 됩니다. 수정할 때는 DB에 저장되어 있는 데이터를 default 값으로 설정하였습니다.  
 ##
 #### - 설비 상세페이지
-![4](https://user-images.githubusercontent.com/60170616/122677226-70e67200-d21c-11eb-9121-91df1c2b0bbb.png)
+<img src="https://user-images.githubusercontent.com/60170616/122677226-70e67200-d21c-11eb-9121-91df1c2b0bbb.png"></img>
 - 설비 상세페이지에는 설비 기본정보와 설비에 쓰인 자재 정보들이 보여집니다. 실제 현장에서 QR 코드를 통해 설비 정보를 확인할 수 있게 하려는 목적으로 설비 링크에 대한 QR 코드를 프린트 가능하게 구현했습니다.
 
 #### - 자재 정보 수정 및 QR 코드 프린트
-<img src="https://user-images.githubusercontent.com/60170616/122677326-dcc8da80-d21c-11eb-8a53-e1ed9e4c97c7.png" width="700px">
+<img src="https://user-images.githubusercontent.com/60170616/122677326-dcc8da80-d21c-11eb-8a53-e1ed9e4c97c7.png" width="600px"></img>
 ![6](https://user-images.githubusercontent.com/60170616/122677359-fbc76c80-d21c-11eb-9d45-790e5b051d37.png)
 
 #### - 이미지 크게보기 기능
@@ -57,7 +57,7 @@ ___
 - 정비 관리 페이지에서는 정비 예정 스케쥴과 상세 내용을 관리합니다. 정비 스케쥴 추가, 수정, 삭제가 가능합니다.
 
 #### - 정비스케쥴 추가, 수정, 삭제 모달창
-![9](https://user-images.githubusercontent.com/60170616/122677481-64164e00-d21d-11eb-9297-7e2904c521ab.png)
+<img src="https://user-images.githubusercontent.com/60170616/122677481-64164e00-d21d-11eb-9297-7e2904c521ab.png" width="700px"></img>
 ##
 #### - 정비 캘린더
 ![10](https://user-images.githubusercontent.com/60170616/122677492-72646a00-d21d-11eb-962d-4332ea45fddd.png)
@@ -78,8 +78,9 @@ ___
 ![15](https://user-images.githubusercontent.com/60170616/122677626-10f0cb00-d21e-11eb-9b2d-1f6bd10f1d6e.png)
 - 코드 관리 페이지는 설비 분류 및 위치 DB를 관리하는 페이지입니다. 설비 보고서를 추가할 때 설비 분류와 설비 위치를 설정해야 하는데, 그 때 DB에 저장된 분류와 위치를 드롭메뉴로 설정할 수 있게 합니다. 설비분류 및 위치가 새롭게 변경되면 코드관리에서 먼저 변경을 해줘야합니다.
 #### - 설비 분류, 설비 위치 코드 추가 모달창
-![16](https://user-images.githubusercontent.com/60170616/122677702-67f6a000-d21e-11eb-90dd-1d14ce13ddd8.png)
+<img src="https://user-images.githubusercontent.com/60170616/122677702-67f6a000-d21e-11eb-90dd-1d14ce13ddd8.png" width="600px"></img>
 ##
 #### 7. 3D 창고조회
 ![17](https://user-images.githubusercontent.com/60170616/122677714-7644bc00-d21e-11eb-9fdd-738091968f3f.png)
 - 3D 창고조회 페이지는 설비 위치에 대한 3D 이미지를 보여줍니다. 360도 회전이 가능한 사진을 업로드하여 위치를 파악할 수 있도록 합니다.
+___
