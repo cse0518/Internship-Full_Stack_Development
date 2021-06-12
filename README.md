@@ -1,8 +1,8 @@
 ___
 # QR코드 기반의 스마트 설비 관리 시스템 개발
 - 스마트 설비 관리 시스템을 node.js로 개발했습니다.
-- 서버는 Express.js를 사용했고, DB는 MariaDB를 연동했습니다.
-- Front 개발은 React로 진행했습니다.
+- Back-End : Express.js + MariaDB
+- Front-End : React
 ___
 ### 👉 프로젝트 진행 기간 :
 - 2021.4.19 ~ 2021.5.4
