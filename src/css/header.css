@@ -1,0 +1,42 @@
+.navbar  {
+    max-height: 47px;
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #253b52;
+}
+
+.btn-outline-success {
+    color: #253b52;
+    border-color: #253b52;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #253b52;
+    border-color: #253b52;
+}
+
+.btn-outline-success:active {
+    color: #fff;
+    background-color: #253b52;
+    border-color: #253b52;
+    box-shadow: 0 0 0 0rem rgb(37 59 82);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #253b52;
+    border-color: #253b52;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: 0 0 0 0rem rgb(37 59 82);
+}
+
+.btn-outline-success:visited {
+    box-shadow: 0 0 0 0.2rem rgb(37 59 82);
+}
+
+
