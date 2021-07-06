@@ -15,13 +15,13 @@ ___
 - **npm install**    // cmd 또는 power shell 에서 폴더 경로 설정 후 npm install 입력, 파일 실행에 필요한 node modules가 설치됨. client 폴더에서도 npm install 입력.
 - **npm run dev**     // npm run dev 를 입력하면 server와 client가 동시에 실행됨.(server.js + ./client/src/index.js)
 ### 👉 목차(개발 상세내용) :
-1. DB 연동(MariaDB)
-2. 메인 대시보드
-3. 설비 관리
-4. 정비 관리
-5. 자재 QR 코드 관리
-6. 코드 관리(설비 분류, 설비 위치 코드)
-7. 3D 창고조회
+1. [DB 연동(MariaDB)](#1-db-연동mariadb)
+2. [메인 대시보드](#2-메인-대시보드)
+3. [설비 관리](#3-설비-관리)
+4. [정비 관리](#4-정비-관리)
+5. [자재 QR 코드 관리](#5-자재-qr-코드-관리)
+6. [코드 관리(설비 분류, 설비 위치 코드)](#6-코드-관리설비-분류-설비-위치-코드)
+7. [3D 창고조회](#7-3d-창고조회)
 ___
 ### 👉 개발 상세내용
 #### 1. DB 연동(MariaDB)
