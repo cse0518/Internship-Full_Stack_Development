@@ -1,0 +1,18 @@
+.site-header .nav li .dropdown-menu a {
+    color: blue;
+    padding: 10px 10px;
+    color : #666666;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu.show {
+    top: -15px !important;
+}
+
+.dropdown-menu {
+    top: 57.5px;
+}

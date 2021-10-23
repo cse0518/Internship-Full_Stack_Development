@@ -1,0 +1,183 @@
+/*======================================
+    Start 인방사 대시보드 CSS
+========================================*/
+
+.inbangsa-dashboard-wrap {
+}
+
+.inbangsa-dashboard-wrap .content-wrap {
+    height: calc(75vh - 2rem);
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.inbangsa-dashboard-wrap .content-wrap > div{
+    position: relative;
+}
+.inbangsa-dashboard-wrap .content-wrap > div:nth-child(1) {
+    flex: 1 0 20rem;
+    max-width: 20rem;
+
+    padding-right:1rem;
+}
+
+.inbangsa-dashboard-wrap .content-wrap > div:nth-child(2) {
+    flex: 1 0 calc(100% - 20rem);
+    max-width: calc(100% - 20rem);
+}
+.inbangsa-dashboard-graph-wrap{
+    height: calc(100% - 9.5rem);
+
+    display:flex;
+    flex-direction: column;
+}
+
+.inbangsa-dashboard-graph-wrap > div{
+    height: calc(33.33% - .633rem);
+}
+.inbangsa-dashboard-graph-wrap > div .card-body{
+    height: calc(100% - 2rem);
+}
+.inbangsa-device-warp {
+
+    column-width: 350px;
+    column-gap: 15px;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+}
+
+.inbangsa-device-warp .badge-success {
+    color: #cbedd4;
+    background-color: #3b7d56;
+}
+
+.inbangsa-device-warp .badge-critical {
+    font-weight: 900;
+    -webkit-animation: flash linear 1.4s infinite;
+    animation: flash linear 1.4s infinite;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.inbangsa-device-warp-1 {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+}
+
+.inbangsa-device-warp-2 {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+.inbangsa-device-warp > div {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: .75rem;
+}
+
+.box {
+    width: 100%;
+    background: #2b3034;
+    padding: 1rem;
+}
+
+.box .box-header {
+    display: flex;
+    color: #3b7d56;
+
+}
+.box .box-body {
+    height: calc(100% - 3rem);
+    border-top: 1px solid #858796;
+    padding-top: .5rem;
+}
+
+.inbangsa-dashboard-wrap .table-wrap {
+    /*
+    대시보드 한 화면에 구성하는 레이아웃 일 경우
+    height: calc(25vh - 1rem);
+    */
+}
+.modal-footer {
+   padding:1rem 2rem;
+    border-top:1px solid #d1d3e2;
+}
+.second-modal-shadow{
+    -webkit-box-shadow: 0 1rem 3rem rgba(0,0,0,.4) !important;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.4) !important;
+}
+/*======================================
+    End 인방사 대시보드 CSS
+========================================*/
+
+
+
+.logo-section{
+    width:5rem;
+    height:5rem;
+    margin-bottom:1.5rem;
+
+    border-radius: 100%;
+    background:#04577d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-bar{
+    width:2.5rem;
+    height: 2.5rem;
+}
+.logo-section > img{
+    width:75%;
+}
+.accordion.toggled .sidebar-brand{
+    padding:0;
+}
+
+.input-vertical-group{}
+.input-vertical-group .form-control {
+    border-right:0;
+    border-left:0;
+}
+
+.input-vertical-group span.form-control{
+    flex:0 1 auto;
+}
+.input-vertical-group  > .form-control:first-child{
+    border-left:1px solid #d1d3e2;
+}
+.input-vertical-group > .input-group-append,
+.input-vertical-group > .input-group-append .btn{
+    border-radius: 0;
+}
+
+
+
+
+/*    inbangsa 포인트 컬러     */
+
+.bg-point{
+    background-color: #04577d;
+}
+.text-point {
+    color: #04577d;
+}
+
+/*      메뉴 포인트      */
+li.nav-item.active .nav-link {
+    background: #05577d;
+}
