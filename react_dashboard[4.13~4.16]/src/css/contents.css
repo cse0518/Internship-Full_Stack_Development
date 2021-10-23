@@ -1,0 +1,30 @@
+.container  {
+    max-width: 89.5%;
+    margin-left: 200px; /* Same as the width of the sidenav */
+    background-color: #00030c;
+    padding-bottom: 20px;
+}
+
+.card-header  {
+    background-color: #04577D;
+    color: #ffffff;
+}
+.card  {
+    background-color: #1e2327;
+    color: #ffffff;
+}
+
+.table {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.react-bs-container-header .react-bs-container-body{
+    font-size: 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+

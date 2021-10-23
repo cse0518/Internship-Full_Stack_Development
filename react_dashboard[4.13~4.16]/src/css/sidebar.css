@@ -1,0 +1,37 @@
+.pro-sidebar {
+    color: #ffffff;
+    width: 200px;
+    min-width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.pro-sidebar-header {
+    padding: 10px;
+    text-align: center;
+    background-color: #00030c;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {
+    padding: 5px 10px 10px 10px;
+}
+
+.pro-sidebar-content {
+    background-color: #00030c;
+}
+
+.pro-sidebar .pro-menu.shaped .pro-menu-item > .pro-inner-item > .pro-icon-wrapper {
+     background-color: #00030c;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+    background-color: #18c3ba;
+}
+
+.bg-light {
+    background-color: #f3f3f3!important;
+}
