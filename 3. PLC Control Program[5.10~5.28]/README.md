@@ -61,13 +61,13 @@ ___
 
 ### 👉 개발 상세내용
 #### 1. 프로그램 흐름 구성도
-<img src="https://user-images.githubusercontent.com/60170616/122716981-ef3b2680-d2a5-11eb-9572-b5ddb3cd8247.png" width="800px"></img>
+<img src="https://user-images.githubusercontent.com/60170616/150289931-1303ed4f-b43b-4259-92d5-40d06bfe3d0e.png" width="800px"></img>
 - User가 장비를 제어하면 서버 -> 게이트웨이로 제어 데이터를 전송합니다. 제어가 성공했을 시 서버에서 DB를 제어하고, client에서는 반영된 데이터를 확인할 수 있습니다.
 - DB 제어는 서버에서만 이뤄지며, 실제 장비(Modbus) 제어는 게이트웨이에서만 이뤄집니다.
 - 온습도 센서(라즈베리파이)의 데이터는 1분마다 수집되어(crontab) 서버로 전송되고, DB에 저장됩니다.
 ##
 #### 2. 장비 Address Mapping
-![2](https://user-images.githubusercontent.com/60170616/122717692-f151b500-d2a6-11eb-9533-4832de3fbd37.png)
+<img src="https://user-images.githubusercontent.com/60170616/150290111-221b3bca-9134-478c-9bec-053ec8c52300.png" width="500px"></img>
 - 각 장비들의 address 주소를 설정하여 제어에 용이하게 합니다.
 ##
 #### 3. 장비 제어 모니터링(Modbus-RTU)
